@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <!-- Meta etiquetas -->
+    <head>
+        <title>Tesla - Electric Cars</title>
+        <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon">
+        
+        <!-- CSS Frameworks  -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Header  -->
+        <header class="d-flex justify-content-between p-3 fixed-top gradient-menu">
+            <!-- Logo  -->
+            <img id="nav_logo" src="public/tesla_logo.svg" alt="" srcset="">
+            
+            <!-- Menu principal -->
+            <nav id="nav-menu" class="d-flex">
+                <a class="nav-link text-light py-1 px-3" href="#">Vehicles</a>
+                <a class="nav-link text-light py-1 px-3" href="#">Energy</a>
+                <a class="nav-link text-light py-1 px-3" href="#">Charging</a>
+                <a class="nav-link text-light py-1 px-3" href="#">Discover</a>
+                <a class="nav-link text-light py-1 px-3" href="#">Shop</a>
+                <a class="nav-link text-light py-1 px-3" href="#">We, Robot</a>
+            </nav>
+            
+            <!-- Menu del usuario -->
+            <nav id="nav-user" class="d-flex">
+                <a href="#" class="bi bi-question-circle text-light"></a>
+                <a href="#" class="bi bi-globe text-light"></a>
+                <a href="#" class="bi bi-person-circle text-light"></a>
+            </nav>
+        </header>
+
+        <!-- Contenido principal  -->
+        <main>
+            <!-- Seccions de banners -->
+            <section id="banners">
+                
+                <!-- Banner de Model 3 -->
+                <div id="main-banner" class="banner d-flex flex-column align-items-center justify-content-between">
+                    <div class="banner-text text-center">
+                        <h1 class="text-light display-2">Model 3</h1>
+                        <p class="text-light border-top pt-1">Leasing starting at $299/mo</p>
+                    </div>
+
+                    <div class="buttons-banner">
+                        <button class="btn btn-primary">Order Now</button>
+                        <button class="btn btn-light">Demo Drive</button>
+                    </div>
+                </div>
+
+                <!-- Banner de Cybertruck  -->
+                <div id="cybertruck-banner" class="banner d-flex flex-column align-items-center justify-content-between">
+                    <div class="banner-logo">
+                        <img src="public/cybertruck_logo.png" alt="" srcset="">
+                    </div>
+
+                    <div class="buttons-banner">
+                        <button class="btn btn-dark">Order Now</button>
+                        <button class="btn btn-dark">Demo Drive</button>
+                    </div>
+                </div>
+
+                <!-- Banner de reclutamiento -->
+                <div id="video-banner">
+                    <video src="public/Tesla-Video.mp4" autoplay loop muted></video>
+
+                    <div class="wrapper d-flex flex-column justify-content-end align-items-start px-5">
+                        <h2 class="text-light">We Are Tesla</h2>
+                        <button class="btn btn-light py-1">Join Tesla</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+         
+        <!-- Footer  -->
+        <footer class="py-5 d-flex justify-content-center bg-light">
+            <span class="text-secondary">Tesla <i class="bi bi-c-circle"></i> 2024</span>
+            <span class="text-secondary">Privacy & Legal</span>
+            <span class="text-secondary">Contact</span>
+            <span class="text-secondary">Locations</span>
+        </footer>
+
+        <!-- Javascript Frameworks -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

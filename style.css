@@ -1,0 +1,87 @@
+#nav_logo {
+    width: 6em;
+}
+
+#nav-menu a {
+    font-size: 0.8rem;
+    margin-right: 0.1rem;
+    margin-left: 0.1rem;
+    border-radius: 0.3rem;
+}
+
+#nav-user a {
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+#nav-menu a:hover {
+    background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+.gradient-menu {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 4em;
+    background-size: cover;
+    background-position: center;
+}
+
+.buttons-banner button {
+    font-size: 0.8em;
+    width: 10rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+#main-banner {
+    padding-top: 8em;
+    background-image: url("public/Homepage-Model-3.avif");
+}
+
+#main-banner p {
+    font-size: 0.8rem;
+}
+
+#cybertruck-banner {
+    padding-top: 6em;
+    background-image: url("public/Homepage-Cybertruck.avif");
+}
+
+#cybertruck-banner img {
+    width: 23rem;
+}
+
+#video-banner {
+    position: relative;
+}
+
+#video-banner video {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+#video-banner .wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 10rem;
+}
+
+#video-banner .wrapper button {
+    font-size: 0.8em;
+    width: 14em;
+}
+
+footer span {
+    font-size: 0.7rem;
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+    margin-top: 2rem;
+}
