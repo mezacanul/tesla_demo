@@ -1,0 +1,26 @@
+.border-b-2 {
+    border-bottom: 2px solid white;
+}
+
+#options-panel .finance-options button:nth-child(2) {
+    border-bottom: 1px solid grey;
+}
+
+.border-grey-1 {
+    border: 1px solid grey;
+}
+
+.checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid grey;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.bg-dark-grey {
+    background-color: rgb(36, 36, 36);
+}

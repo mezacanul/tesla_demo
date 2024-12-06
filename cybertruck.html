@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html> -->
+<html>
+    <!-- Meta etiquetas -->
+    <head>
+        <title>Tesla - Electric Cars</title>
+        <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon">
+        
+        <!-- CSS Frameworks  -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> -->
+        <link href="./public/assets/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="order.css">
+        <link rel="stylesheet" href="./bootstrap-pending.css">
+    </head>
+
+    <body class="">
+        <!-- Header  -->
+        <header class="w-100 px-4 py-4 cybertruck">
+            <img class="logo cybertruck" src="./public/tesla_logo.svg" alt="" srcset="">
+        </header>
+
+        <!-- Main  -->
+        <main class="bg-black">
+            <!-- Image Preview -->
+            <div id="preview" class="cybertruck"></div>
+            
+            <!-- Modal -->
+            <div id="info" class="info-cybertruck">
+                <!-- Title and Subtitle -->
+                <div class="name d-flex p-4 mt-4 mb-5">
+                    <img src="./public/cybertruck_logo.png" alt="">
+                </div>
+
+                <!-- Technical Number details -->
+                <div class="tech-number text-light text-center py-1 px-4 mb-3">
+                    <div class="data">
+                        <h4>325<span>mi</span></h4>
+                        <p class="m-auto">Range (est.)</p>
+                    </div>
+                    
+                    <div class="data">
+                        <h4>11,000<span>lbs</span></h4>
+                        <p class="m-auto">Towing capacity</p>
+                    </div>
+                    
+                    <div class="data">
+                        <h4>4.1<span>s</span></h4>
+                        <p class="m-auto">0-60 mph</p>
+                    </div>
+                </div>
+
+                <!-- Options panel -->
+                <div id="options-panel">
+                    <!-- 2 transparent buttons -->
+                    <div class="finance-options mb-3">
+                        <button class="btn text-light rounded-0 border-b-2">Cash</button>
+                        <button class="btn text-light rounded-0 border-b-2">Finance</button>
+                    </div>
+                    
+                    <!-- Another 2 buttons -->
+                    <div class="edition-options d-flex flex-column">
+                        <button class="btn border-grey-1 rounded-0 text-light d-inline-flex justify-content-between py-3 mb-3 option-active">
+                            <span>All-Wheel Drive</span>
+                            <span>$74,490</span>
+                        </button>
+                        
+                        <button class="btn border-grey-1 rounded-0 text-light d-inline-flex justify-content-between py-3">
+                            <span>Cyberbeast</span>
+                            <span>$94,490</span>
+                        </button>
+
+                        <div class="terms d-flex justify-content-center mt-4 mb-2">
+                            <div class="checkbox me-2"></div>
+                            <p class="text-light m-0">Include est. 5-year gas savings of $5,500</p>
+                        </div>
+
+                        <a class="link link-light link-edit p-0 rounded-0 text-light mb-3 mt-0">Edit Savings</a>
+                        <button class=" btn-explore py-2 m-auto bg-dark-grey rounded-0 text-light">Explore Features</button>
+                    </div>
+                </div>
+
+                    <!-- Checkbox and legend - button  -->
+                    <!-- explore btn  -->
+                
+                <!-- Order Box  -->
+                <div class="order-box order-cybertruck d-flex justify-content-between align-items-center py-3 px-3 bg-dark">
+                    <!-- Price  -->
+                    <div class="price text-light">
+                        <h4 class="mb-1">$74,490</h4>
+                        <p class="m-0">after est. savings</p>
+                    </div>
+                    
+                    <!-- Button -->
+                     <button class="btn btn-secondary rounded-0">Order Now</button>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- Javascript Frameworks -->
+        <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+        <script src="./public/assets/jquery-3.6.0.min.js"></script>
+        <script src="./public/assets/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

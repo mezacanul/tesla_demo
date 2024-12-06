@@ -1,0 +1,152 @@
+button {
+    transition: 0.4s;
+}
+
+.bg-black {
+    background-color: rgb(18, 18, 18);
+}
+
+header {
+    position: fixed;
+}
+
+header.cybertruck {
+    background: transparent;
+    backdrop-filter: blur(48px);
+}
+
+header .logo {
+    width: 7em;
+    filter: brightness(0);
+}
+
+header .logo.cybertruck {
+    filter: initial;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 100vh;
+}
+
+#preview {
+    background-position: center;
+    background-size: 140%;
+}
+
+#preview.model-3 {
+    background-image: url("./public/model3_blue.jpeg");
+}
+
+#preview.cybertruck {
+    background-image: url("./public/cybertuck.jpeg");
+    background-size: 120%;
+}
+
+#info {
+    position: relative;
+    margin-top: 4rem;
+}
+
+.tech-number {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tech-number .data span {
+    font-size: 0.8rem;
+}
+
+.tech-number .data p {
+    font-size: 0.8rem;
+    width: 80%;
+    margin: 0;
+}
+
+.tech-desc {
+    height: 50vh;
+}
+
+.tech-desc li {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.order-box {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    box-shadow: 0px 0px 8px hsla(0, 0%, 0%, 0.3);
+    border-radius: 0.7rem 0.7rem 0 0 ;
+}
+
+.order-box.order-cybertruck {
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+}
+
+.order-box .price p, .order-box button {
+    font-size: 0.8rem;
+}
+
+.order-box button {
+    height: 2.4rem;
+    width: 9em;
+    font-weight: bold;
+}
+
+/* Cybertruck styling  */
+.name img {
+    width: 10rem;
+    margin: auto;
+}
+
+.info-cybertruck {
+    margin-top: 4rem;
+}
+
+#options-panel {
+    width: 80%;
+    margin: auto;
+}
+
+#options-panel .finance-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#options-panel .finance-options button {
+    font-size: 0.8em;
+}
+
+.edition-options button, .edition-options a {
+    font-size: 0.8em;
+}
+
+.edition-options button:hover {
+    border: 1px solid white;
+}
+
+.edition-options .option-active {
+    background-color: rgb(36, 36, 36);
+}
+
+.terms p {
+    font-size: 0.8rem;
+}
+
+.btn-explore {
+    border: 1px solid grey;
+    font-weight: 500;
+    width: 10rem;
+}
+
+.link-edit {
+    align-self: center;
+}
+
+.link-edit:hover {
+    cursor: pointer;
+}
